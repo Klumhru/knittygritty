@@ -11,7 +11,7 @@ from . common import ROOT
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = os.path.join(ROOT, 'media')
+MEDIA_ROOT = os.path.join(ROOT, 'media') + '/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -27,6 +27,7 @@ STATIC_ROOT = '/home/hogni/PycharmProjects/knittygritty/staticfiles/'
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/staticfiles/'
+
 
 # Additional locations of static files
 STATICFILES_DIRS = (
