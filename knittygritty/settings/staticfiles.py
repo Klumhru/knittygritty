@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Django settings compiler
+Django static files settings
 """
 from __future__ import absolute_import
 
@@ -22,7 +22,7 @@ MEDIA_URL = '/media/'
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = os.path.join(ROOT, 'staticfiles')
+STATIC_ROOT = '/home/hogni/PycharmProjects/knittygritty/staticfiles/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
